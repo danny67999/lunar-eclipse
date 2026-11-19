@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Lunar Eclipse is a native WebKit browser for Mac.">
+<title>Lunar Eclipse · Browser for Mac</title>
+<style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, sans-serif; color: #f6f3f8; background: #11111a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(ellipse 46rem 38rem at 50% -10rem, #35304e, transparent), #11111a; }
+    main { width: min(100% - 3rem, 45rem); margin: auto; }
+    header { text-align: center; padding: clamp(3rem, 10vw, 7rem) 0 3.5rem; }
+    img { width: 6.5rem; height: 6.5rem; }
+    h1 { font-size: clamp(2.7rem, 8vw, 5.25rem); line-height: 1.05; letter-spacing: -.06em; margin: .75rem 0; }
+    p { font-size: 1rem; line-height: 1.6; color: #c7c3d3; }
+    header p { margin: .75rem auto 1.5rem; max-width: 27rem; }
+    section { border-top: 1px solid #3c384a; padding: 1.75rem 0 3rem; }
+    h2 { font-size: 1.1rem; margin: 0; }
+    a { color: #d5bcff; }
+    a:focus-visible { outline: 2px solid #e5d6ff; outline-offset: 5px; }
+    .download { display: inline-block; border: 1px solid #7733b1; background: #241935; color: #f2deff; border-radius: .7rem; padding: .75rem 1.05rem; }
+    .system { font-size: .88rem; }
+</style>
+<main>
+    <header>
+        <img src="icon.png" alt="">
+        <h1>Lunar Eclipse</h1>
+        <p>A native WebKit browser for Mac with a horizontal tab strip and a directly editable address bar.</p>
+        <span class="download">Download in preparation</span>
+        <p class="system">Apple Silicon · macOS 13 or later</p>
+    </header>
+    <section aria-labelledby="preview">
+        <h2 id="preview">About the preview</h2>
+        <p>Your tabs, history, and bookmarks are stored on your Mac. Lunar Eclipse can show open tabs from Safari on your iPhone when macOS grants access to Safari’s local cache. In-browser iCloud Passwords autofill is pending.</p>
+        <p><a href="https://github.com/apple/password-manager-resources/issues/1926">Follow the iCloud Passwords request</a></p>
+    </section>
+</main>
+</html>
